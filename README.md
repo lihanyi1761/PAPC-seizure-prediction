@@ -5,7 +5,7 @@ EEG power spectra parameterization and adaptive channel selection towards effici
 This is code for the paper [EEG power spectra parameterization and adaptive channel selection towards efficient semi-supervised seizure prediction] which in the minor revision 
 
 
-	@article{didilvlv,
+	@article{lihanyi1761,
 	  title={EEG power spectra parameterization and adaptive channel selection towards efficient semi-supervised seizure prediction},
 	  author={Hanyi Lia, Jiahui Liao, Hongxiao Wang, Chang’an A. Zhan and Feng Yang},
 	  journal={computers in biology and medicine},

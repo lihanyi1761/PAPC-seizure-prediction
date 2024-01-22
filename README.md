@@ -44,9 +44,3 @@ python3 main.py --mode wgan-gp --dataset DATASET
 python3 main.py --mode cvgan --dataset DATASET
 ```
 
-## run the code as follows:
-# CUDA_VISIBLE_DEVICES=1 python main.py --mode save_STFT --dataset CHBMIT --sph 5
-# CUDA_VISIBLE_DEVICES=1 python main.py --mode dcgan --dataset CHBMIT --sph 5
-# CUDA_VISIBLE_DEVICES=0 python main.py --mode wgan --dataset CHBMIT --sph 5
-# CUDA_VISIBLE_DEVICES=0 python main.py --mode wgan_gp --dataset CHBMIT --sph 5
-# CUDA_VISIBLE_DEVICES=2 python main.py --mode cvgan --dataset CHBMIT --sph 5

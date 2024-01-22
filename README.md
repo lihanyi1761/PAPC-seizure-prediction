@@ -23,24 +23,25 @@ This is code for the paper [EEG power spectra parameterization and adaptive chan
 
 
 #### How to run the code
-1. Set the paths in \*.json files. Copy files in folder "copy-to-CHBMIT" to your CHBMIT dataset folder.
+1. To obtain the channel selection results based on PAPC, please run the code below the file 'PAPC'
 
-2. Prepare preprocessed data for WGAN-GP training. A large storage is required.
+2. Set the paths in \*.json files. Copy files in folder "copy-to-CHBMIT" to your CHBMIT dataset folder.
+
+3. Prepare preprocessed data for WGAN-GP training. A large storage is required.
 ```console
 python3 main.py --mode save_STFT --dataset DATASET
 ```
 * DATASET can be CHBMIT or siena-scalp-eeg-database-1.0.0.
 * CHBMIT(https://physionet.org/content/chbmit/1.0.0/) and siena(https://physionet.org/content/siena-scalp-eeg/1.0.0/) are both common dataset which can be download.
 
-3. Train  model. 
+4. Train  model. 
 ```console
 python3 main.py --mode wgan-gp --dataset DATASET
 
 ```
 * For comparison, MODEL can be dcgan,wgan,wgan_gp .
 
-4. Leave-one-seizure-out cross-validation.
+5. Leave-one-seizure-out cross-validation.
 ```console
 python3 main.py --mode cvgan --dataset DATASET
 ```
-
